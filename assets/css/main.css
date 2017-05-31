@@ -63,7 +63,7 @@ header{
 
 
 #home{
-  background-image: url(../assets/images/bg-home.jpg);
+  background-image: url(../assets/images/bg-home);
   background-position: center;
   background-repeat:  no-repeat;
   background-size: cover;
@@ -91,5 +91,69 @@ header{
   margin-top: 63px;
   display: inline-block;
   font-size: 14px;
+}
+
+/*
+ * Ingresa el CSS del proyecto en este archivo
+ */
+.btn-home:hover, .btn-home:focus, .btn-home:active {
+  background-color: #0AC25A;
+  color: #fff;
+  transition: .5s all ease;
+}
+#services {
+  background-color: #f17c72;
+  text-align: center;
+  color: #fff;
+  padding: 70px 7px;
+}
+#services h4, #work h4 {
+  max-width: 840px;
+  width: 90%;
+  margin: 0 auto;
+  font-size: 95%;
+}
+.box-services {
+  display: inline-block;
+  width: 30%;
+  margin-top: 63px;
+}
+.box-services h5 {
+  padding-top: 21px;
+}
+.text-services {
+  font-size: 35px;
+  letter-spacing: 2px;
+  margin: 42px 0;
+}
+#work {
+  text-align: center;
+  padding: 70px 7px;
+  overflow: hidden;
+}
+#work > div > img {
+  margin: 63px 0;
+}
+.work-services {
+    width: 29%;
+    float: left;
+    margin: 35px 2%;
+}
+.work-services img {
+  width: 100%;
+}
+.work-services h5 {
+  padding-top: 35px;
+}
+footer {
+  text-align: center;
+  height: 100px;
+  background-color: #373b47;
+  color: #fff;
+  padding-top: 7px;
+}
+
+a{
+  color:fff;
 }
 
