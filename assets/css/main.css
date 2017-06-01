@@ -52,33 +52,41 @@ header{
 	background: white;
 	width:  100%;
 	top: 0;
-}
+ }
 
 .menu{
 	padding: 14px 70px;
 	overflow: auto;
 }
 
-/*imagen de header se enlaza en css */
-
-
+/*imagen de header */
 #home{
-  background-image: url(../assets/images/bg-home);
+  background-image: url(../images/bg-home.jpg);
   background-position: center;
-  background-repeat:  no-repeat;
+  background-repeat: no-repeat;
   background-size: cover;
-  height: 554px;
+  overflow: hidden;
   text-align: center;
-  margin-top:80px;
+  margin-top: 80px;
 }
 
 #home.container{
-  color:white;
+  color: #FFFFFF;
   padding: 70px;
+}
+
+.ultimate{
+  color: #FFFFFF;
+  padding-top: 55px;
+}
+.text-uppercase {
+  color: #FFFFFF;
+  padding-top: -5px;
 }
 
 .text-home{
   font-size: 53px;
+  color: #FFFFFF;
 }
 
 .btn-home{
@@ -93,9 +101,6 @@ header{
   font-size: 14px;
 }
 
-/*
- * Ingresa el CSS del proyecto en este archivo
- */
 .btn-home:hover, .btn-home:focus, .btn-home:active {
   background-color: #0AC25A;
   color: #fff;
@@ -130,7 +135,12 @@ header{
   text-align: center;
   padding: 70px 7px;
   overflow: hidden;
+  }
+
+#work > div > h2{
+  color: #000;
 }
+
 #work > div > img {
   margin: 63px 0;
 }
@@ -153,7 +163,11 @@ footer {
   padding-top: 7px;
 }
 
-a{
-  color:fff;
+p a {
+  color: #F17C72;
+  text-decoration: none;
 }
 
+ p a:hover {
+   color: #FFFFFF;
+    }
